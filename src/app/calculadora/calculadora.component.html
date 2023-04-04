@@ -1,0 +1,13 @@
+<h1>Claculadora em Angular</h1>
+
+<div>
+  <form>
+    <input type="number" name="num1" [(ngModel)]="num1"   >
+    <input type="number" name="num2" [(ngModel)]="num2" >
+    <input [value]="soma"><br>
+    <button (click)="somar()">+</button>
+    <button (click)="subtrair()">-</button>
+    <button (click)="dividir()">/</button>
+    <button (click)="multiplicacao()">*</button>
+  </form>
+</div>
